@@ -107,3 +107,38 @@ ul, li {
     text-decoration: none;
     
 }
+
+@media screen and (max-width: 992px) {
+    .products {
+        flex-direction: column;
+        padding-top: 25px;
+    }
+    .product__info {
+        text-align: center;
+    }  
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .stars {
+        flex-direction: column;
+    }
+    .products {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .product__info {
+        text-align: center;
+    }
+    .product__info-ino {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .logo {
+        text-align: center;
+    }
+}
