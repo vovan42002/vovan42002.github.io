@@ -141,4 +141,15 @@ ul, li {
     .logo {
         text-align: center;
     }
+    .new {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 400px) {
+    .menu {
+        flex-direction: column;
+    }
+    .form {
+        flex-direction: column;
+    }
 }
