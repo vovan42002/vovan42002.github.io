@@ -1,0 +1,109 @@
+/* Спецификация */
+body {
+    font-family: 'Merriweather', serif;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+.header {
+    background: #333a41;
+    color: white;
+}
+.menu {
+    margin-top: 10px;
+}
+
+.menu__item {
+    margin: 6px 18px;
+}
+
+.menu__item a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.menu__item a:hover {
+    font-size: 18px;
+    color: grey;
+    transition: .25s;
+}
+.menu__item_grey {
+    margin: 6px 18px;
+}
+.menu__item_grey a {
+    font-size: 18px;
+    color: rgb(168, 166, 166);
+    text-decoration: none;
+}
+.menu__item_grey a:hover {
+    font-size: 18px;
+    color: white;
+    transition: .25s;
+}
+
+.logo {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
+.form {
+    text-align: right;
+}
+.form__input {
+    background: white;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px 0;
+    border: 0;
+    padding-left: 10px;
+
+}
+.form__btn {
+    background: #272c31;
+    color: green;
+    border: 3px solid green;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 3px 0;
+    width: 80px;
+    margin-left: 5px;
+}
+
+/* Stars of new world */
+
+.stars {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.stars__item {
+    padding: 50px;
+}
+
+/* Products */
+
+.products {
+    padding: 10px 200px 50px 200px;
+}
+
+.product__info {
+    text-align: left;
+    padding-right: 25px;
+}
+.product__info-ino {
+    padding-left: 25px;
+}
+
+.anchor_top {
+    font-size: 18px;
+    text-decoration: none;
+    
+}

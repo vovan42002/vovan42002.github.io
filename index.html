@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab3 bootstrap</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body id="top">
+
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row d-flex flex-row bd-highlight">
+
+                <div class="col-lg-7 d-flex justify-content-start">
+                    <div class="logo">
+                        Технології та світ
+                    </div>
+                    <nav>
+
+                        <ul class="menu d-flex">
+
+                            <li class="menu__item">
+                                <a href="#">
+                                    Головна
+                                </a>
+                            </li>
+                            <li class="menu__item_grey">
+                                <a href="#">
+                                    Персоналії
+                                </a>
+                            </li>
+                            <li class="menu__item_grey">
+                                <a href="#">
+                                    Продукти
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-5 m-auto">
+                    <form action="#" class="form">
+                        <input type="text" placeholder="Search" class="form__input">
+                        <button type="submit" class="form__btn">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container-fluid p-0 m-0">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/surface_wp.jpg" class="d-block w-100" alt="surface_wp">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Microsoft Surface</h5>
+                            <p>Комп'ютери із сенсорними екранами та інтерактивними дошками, розроблені Майкрософт.</p>
+                            <a class="btn btn-primary" href="https://uk.wikipedia.org/wiki/Microsoft_Surface"
+                                role="button">Детальніше</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/spaceman_wp.jpg" class="d-block w-100" alt="spaceman_wp">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Spaceman</h5>
+                            <p>Автомобіль Тесла запущено в космос</p>
+                            <a class="btn btn-primary"
+                                href="https://uk.wikipedia.org/wiki/Tesla_Roadster_%D0%86%D0%BB%D0%BE%D0%BD%D0%B0_%D0%9C%D0%B0%D1%81%D0%BA%D0%B0"
+                                role="button">Детальніше</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/tesla_wp.jpg" class="d-block w-100" alt="tesla_wp">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Tesla</h5>
+                            <p>Найбільш відомий та популярний електромобіль</p>
+                            <a class="btn btn-primary" href="https://www.tesla.com/" role="button">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="stars d-flex justify-content-center">
+                    <div class="col-lg-4 stars__item">
+                        <img src="img/Bill_gates.jpg" alt="Bill Gates" class="rounded-circle" width="200">
+                        <h1 class="stars__item-text">Біл Гейтс</h1>
+                        <p class="stars__text"> Американський бізнесмен, інвестор, письменник, філантроп, засновник
+                            корпорації Майкрософт, співголова Фонду Білла і Мелінди Гейтсів. Протягом кар'єри в
+                            Microsoft, Гейтс займав позиції голови ради директорів, CEO та головного архітектора,
+                            одночасно до травня 2014 також будучи найбільшим акціонером.</p>
+                        <a class="btn btn-secondary"
+                            href="https://uk.wikipedia.org/wiki/%D0%91%D1%96%D0%BB%D0%BB_%D0%93%D0%B5%D0%B9%D1%82%D1%81"
+                            role="button">Детальніше</a>
+                    </div>
+                    <div class="col-lg-4 stars__item">
+                        <img src="img/Steve_jobs.jpg" alt="Steve Jobs" class="rounded-circle" width="200">
+                        <h1 class="stars__item-text">Стів Джобс</h1>
+                        <p class="stars__text">Американський підприємець і винахідник.
+                            Був засновником, членом ради директорів і CEO (генеральним директором) корпорації Apple Inc.
+                            Джобс також раніше обіймав посаду CEO компанії Pixar Animation Studios; в 2006 році The Walt
+                            Disney Company придбав Pixar і Джобс став членом ради директорів Disney.</p>
+                        <a class="btn btn-secondary"
+                            href="https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D1%96%D0%B2_%D0%94%D0%B6%D0%BE%D0%B1%D1%81"
+                            role="button">Детальніше</a>
+                    </div>
+                    <div class="col-lg-4 stars__item">
+                        <img src="img/Elon_musk.jpg" alt="Elon Musk" class="rounded-circle" width="200">
+                        <h1 class="stars__item-text">Ілон Маск</h1>
+                        <p class="stars__text">Інженер, винахідник, інвестор, мільярдер. Засновник компаній
+                            «SpaceX», «PayPal», Neuralink і The Boring Company, головний дизайнер (Chief Product
+                            Architect), генеральний директор і голова ради директорів «Tesla Inc.», що керує заводом
+                            Tesla. Входить до ради директорів компанії «SolarCity», заснованої його братами.
+                        </p>
+                        <a class="btn btn-secondary"
+                            href="https://uk.wikipedia.org/wiki/%D0%86%D0%BB%D0%BE%D0%BD_%D0%9C%D0%B0%D1%81%D0%BA"
+                            role="button">Детальніше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <hr>
+                <div class="products d-flex col-lg-12">
+                    <div class="product__info">
+                        <h1 class="product__name">
+                            Microsoft Surface. Планшет
+                        </h1>
+                        <p class="product__text">
+                            це серія персональних комп'ютерів із сенсорними екранами та інтерактивних дощок, розроблені
+                            Майкрософт. Всі пристрої серії відносяться до преміум-класу та за задумкою компанії мають
+                            давати приклад іншим виробникам. Збираються Surface на потужностях компанії Pegatron. Також
+                            до серії входить лінійка спеціальних аксесуарів для полегшення роботи із пристроями. За
+                            винятком Surface та Surface 2, які були обладнані ARM процесорами та працювали на
+                            спеціальній версії Windows RT, всі інші пристрої виходять на базі процесорів Intel та
+                            підтримують останні версії Windows 10. Ще одним виняток щодо версії ОС є Surface Laptop,
+                            випущений у 2017 році, який працює на Windows S.
+                        </p>
+
+                    </div>
+                    <img src="img/surface.jpg" alt="Surface" width="600px">
+                </div>
+            </div>
+            <div class="row">
+                <hr>
+                <div class="products d-flex col-lg-12">
+                    <img src="img/spacex.jpg" alt="Spacex" width="600px">
+                    <div class="product__info-ino">
+                        <h1 class="product__name">
+                            Space Exploration Technologies Corporation. (SpaceX).
+                        </h1>
+                        <p class="product__text">
+                            Спейс Ікс (англ. Space Exploration Technologies Corporation (SpaceX)) — американська
+                            аерокосмічне приватне підприємство, що займається будівництвом космічного транспорту,
+                            наданням космічних транспортних послуг та комунікаційних послуг. SpaceX є виробником ряду
+                            ракет-носіїв, зокрема, сімейства Falcon та двигунів для них, а також космічних кораблів
+                            Dragon (в грузовому і пілотованому варіантах). Крім цього компанія розвиває мережу
+                            супутників Starlink, з допомогою яких надає послуги швидкого широкополосого доступу до
+                            Всесвітньої мережі. Офіс розташовано в Готорні в Каліфорнії. Компанію створено Ілоном Маском
+                            в 2002 році з метою здешевлення виводу вантажів та людей на орбіту та колонізації Марсу в
+                            дальшій перспективі.
+
+                            Серед основних досягнень SpaceX: перша приватна ракета на рідкому паливі, що вийшла на
+                            орбіту Землі, (Falcon 1 в 2008), першість серед приватних компаній в доставлені на орбіту та
+                            приземлені космічного корабля (Dragon в 2010), першість серед приватних компаній, що
+                            відправили корабель до Міжнародній космічній станції (Dragon в 2012), першість в
+                            вертикальному зльоті і посадці орбітальної ракети-носія (Falcon 9 в 2015), першість в
+                            кількаразовому використанні орбітальної ракети-носія (Falcon 9 в 2017), перша доставка
+                            астронавтів до МКС приватною компанією (SpaceX Crew Dragon Demo-2 в 2020). SpaceX запустила
+                            та використала для повторного запуску Falcon 9 вже понад сотню разів.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <hr>
+                <div class="products d-flex col-lg-12">
+                    <div class="product__info">
+                        <h1 class="product__name">
+                            MacBook. Ноутбук.
+                        </h1>
+                        <p class="product__text">
+                            колишня серія ноутбуків від Apple Inc. Введені у продаж з травня 2006 року. Замінили iBook
+                            G4 та PowerBook на 12" під час переходу продукції Apple на платформи Intel. Цільовою
+                            аудиторією цього представника серії ноутбуків MacBook є студенти та рядові користувачі.
+                            Наразі доступно дві моделі MacBook: з пластиковим корпусом та слабшою комплектацією, та
+                            алюмінієвий корпус і сучасні деталі.
+
+                            Найбільш дешеві ноутбуки MacBook від Apple, 20 грудня 2008 року було представлено в
+                            алюмінієвому корпусі, створеному за технологією Unibody (алюмінієвий корпус вирізається з
+                            цільного шматка металу), але на WWDC-2009 дана модель була переведена в клас MacBook Pro з
+                            поліпшенням деяких характеристик.
+
+                            2019 року випуск серії зупинено, надалі у виробництві залишилися її розгалуження: масово
+                            доступний MacBook Air та профейсійний MacBook Pro.
+                        </p>
+
+                    </div>
+                    <img src="img/macbook.jpg" alt="Macbook" width="600px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <hr>
+            <div class="row d-flex">
+                <div class="col-lg-2">
+                    <p>&copy WEB Development</p>
+                </div>
+                <div class="col-lg-2 ms-lg-auto">
+                    <a class="anchor_top" href="#top">Перейти на початок</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
