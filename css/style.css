@@ -134,22 +134,30 @@ ul, li {
     .product__info-ino {
         text-align: center;
     }
-    
+    .form {
+        flex-direction: column;
+    }
+    .form__btn {
+        width: 100%;
+        margin: 0 0 10px;
+        padding: 0;
+    }
+    .form__input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .logo {
         text-align: center;
     }
-    .new {
+    .head {
         flex-direction: column;
     }
-}
-@media screen and (max-width: 400px) {
+    
     .menu {
         flex-direction: column;
-    }
-    .form {
-        flex-direction: column;
+        text-align: center;
     }
 }
