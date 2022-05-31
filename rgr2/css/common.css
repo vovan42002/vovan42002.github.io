@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Header*/
+
+.header {
+    height: 100px;
+    background: #243238;
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.menu__item {
+    margin-right: 74px;
+}
+
+.menu__item a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu__item a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #fffffc;
+    transition: width .3s ease-in-out;
+}
+
+.menu__item a:hover:after,
+.menu__item a:focus:after {
+    width: 100%;
+}
+
+.menu__item a:hover {
+    color: rgb(147, 104, 66);
+}
+
+/*Footer*/
+
+.footer {
+    height: 100px;
+    background: #243238;
+}
+
+.credits {
+    margin-top: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.social_networks {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.icon {
+    margin-right: 20px;
+    color: white;
+}
+
+.icon:hover {
+    color: rgb(126, 126, 126);
+}
+
+/* xs (<=543px) */
+@media (max-width: 575px) {
+    .header {
+        height: auto;
+    }
+
+    .menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu__item {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 25%;
+    }
+
+    .cent {
+        display: flexbox;
+
+        margin: 0 auto 0 auto;
+        text-align: center;
+    }
+
+    .info {
+        display: block;
+        margin: 0 auto 0 auto;
+    }
+}
+
+/* sm (>=576 и <=767) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        height: auto;
+    }
+
+    .menu__item {
+        margin-right: 25px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+
+}
+
+/* md (>=768 и <=991) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header {
+        height: auto;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .menu__item {
+        margin-right: 40px;
+    }
+}
+
+/* lg (>=992 и <=1199) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .menu__item {
+        margin-right: 50px;
+    }
+}
+
+/* xl (>=1200) */
+@media (min-width: 1200px) {}
